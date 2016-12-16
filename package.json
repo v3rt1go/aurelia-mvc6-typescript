@@ -25,11 +25,19 @@
   },
   "homepage": "https://github.com/v3rt1go/aurelia-mvc6-typescript#readme",
   "devDependencies": {
-    "jspm": "^0.16.48"
+    "jspm": "^0.16.48",
+    "typings": "^2.0.0"
   },
   "jspm": {
     "directories": {
       "baseURL": "wwwroot"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^2.0.1",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.8",
+      "aurelia-logging-console": "npm:aurelia-logging-console@^1.0.0",
+      "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.1.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.7"
     },
     "devDependencies": {
       "typescript": "npm:typescript@^2.0.7"

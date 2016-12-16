@@ -62,6 +62,13 @@
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
 
+    <script src="~/jspm_packages/system.js"></script>
+    <script src="~/config.js"></script>
+
+    <script>
+      System.import("aurelia-bootstrapper");
+    </script>
+
     @RenderSection("scripts", required: false)
 </body>
 </html>
