@@ -1,0 +1,38 @@
+{
+  "name": "aurelia-mvc6-typescript",
+  "version": "0.0.1",
+  "description": "A boilerplate template for starting an .NET Core ASP.Net MVC 6 project with Aurelia and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v3rt1go/aurelia-mvc6-typescript.git"
+  },
+  "keywords": [
+    "aurelia",
+    "typescript",
+    "netcore",
+    "dot.net",
+    "core",
+    "mvc6"
+  ],
+  "author": "Alex Griciuc <agriciuc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/v3rt1go/aurelia-mvc6-typescript/issues"
+  },
+  "homepage": "https://github.com/v3rt1go/aurelia-mvc6-typescript#readme",
+  "devDependencies": {
+    "jspm": "^0.16.48"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "wwwroot"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^2.0.7"
+    }
+  }
+}
